@@ -1,5 +1,5 @@
 services:
-- hash: 8dbca63a4a0bba8711ca0a7bfd106dd5010d8678
+- hash: 5829be1bdd82e31925ccbd4db7c7c980ffb4277b
   name: app-interface
   path: /openshift/app-interface.yaml
   url: https://github.com/app-sre/qontract-server
