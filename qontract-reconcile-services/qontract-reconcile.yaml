@@ -4,18 +4,18 @@ services:
     parameters:
       DRY_RUN: --no-dry-run
       SLEEP_DURATION_SECS: 120
-      USER_ID: "1001450000"
+      USER_ID: 1001450000
   - name: staging
     parameters:
       DRY_RUN: --dry-run
       SLEEP_DURATION_SECS: 600
-      USER_ID: "1031160000"
-  hash: fa1c3e39c6935097bf76d9a34485b3f9a2839ba9
+      USER_ID: 1031160000
+  hash: c44ed121925ce1fd77f2f18ff6e66b963a17bd65
   hash_length: 7
   name: qontract-reconcile
   parameters:
     DRY_RUN: --dry-run
     SLEEP_DURATION_SECS: 600
-    USER_ID: "1031160000"
+    USER_ID: 1031160000
   path: /openshift/qontract-reconcile.yaml
   url: https://github.com/app-sre/qontract-reconcile
