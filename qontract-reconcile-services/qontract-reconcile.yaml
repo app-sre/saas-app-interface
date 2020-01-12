@@ -5,7 +5,7 @@ services:
       DRY_RUN: --no-dry-run
       SLACK_CHANNEL: sd-app-sre-reconcile
       SLEEP_DURATION_SECS: 120
-      USER_ID: 1000690000
+      USER_ID: 1000640000
   - name: staging
     parameters:
       DRY_RUN: --dry-run
