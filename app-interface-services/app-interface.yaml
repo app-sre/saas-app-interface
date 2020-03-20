@@ -2,15 +2,15 @@ services:
 - environments:
   - name: production
     parameters:
-      IMAGE_GATE_TAG: 89fffba
-      MEMORY_REQUESTS: 512Mi
-      MEMORY_LIMIT: 1Gi
-      CPU_REQUESTS: 150m
       CPU_LIMIT: 300m
+      CPU_REQUESTS: 150m
+      IMAGE_GATE_TAG: 89fffba
+      MEMORY_LIMIT: 1Gi
+      MEMORY_REQUESTS: 512Mi
   - name: staging
     parameters:
       IMAGE_GATE_TAG: 89fffba
-  hash: 47825bbc411ff56f151b8a609f1f4cacf74522e2
+  hash: c7808cce53b795a0d2457e7f7877e1b6049642f2
   hash_length: 7
   name: app-interface
   parameters:
