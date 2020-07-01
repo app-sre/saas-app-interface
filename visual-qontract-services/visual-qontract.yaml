@@ -1,5 +1,5 @@
 services:
-- hash: 59c86f0ad6aa5ecfe8386cfc809ff979ab0c344c
+- hash: 4036e4130489c4512615781436809ea297255b2a
   hash_length: 7
   name: visual-qontract
   path: /openshift/visual-qontract.yaml
